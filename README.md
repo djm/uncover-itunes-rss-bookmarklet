@@ -6,7 +6,7 @@ A Javascript bookmarklet to reveal the actual RSS/feed URL of an iTunes podcast,
 Install
 -------
 
-1. Visit my post on [djm.org.uk](http://djm.org.uk/uncover-itunes-rss-bookmarklet/) and follow the instructions there.
+1. Visit my post on [djm.org.uk](http://djm.org.uk/reveal-rss-feed-url-itunes-podcast/) and follow the instructions there.
 
 Apologies about that, but github does not support direct linking to javascript bookmarklets for very good anti-XSS security reasons.
 
