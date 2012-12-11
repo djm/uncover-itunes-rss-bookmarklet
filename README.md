@@ -8,7 +8,7 @@ Install
 
 1. Simply drag the following link to your Browser's bookmark toolbar/menu to install.
 
-[itunes-to-rss](javascript:(function(){var%20newScript=document.createElement('script');newScript.src='https://raw.github.com/djm/uncover-itunes-rss-bookmarklet/master/bookmarklet.js;document.body.appendChild(newScript);})();)
+[itunes-to-rss](javascript:\(function\(\){var%20newScript=document.createElement\('script'\);newScript.src='https://raw.github.com/djm/uncover-itunes-rss-bookmarklet/master/bookmarklet.js;document.body.appendChild\(newScript\);}\)\(\);)
 
 2. Then visit an appropriate iTunes podcast page, e.g: [The Critical Records podcast](https://itunes.apple.com/gb/podcast/critical-podcast/id293017397)
 
