@@ -47,13 +47,10 @@
     if (artist_id) {
         feed_url = retrieveFeedFromAPI(artist_id);
         if (feed_url) {
-            // I was thinking about inserting the element into
-            // the page; but this works just as well and will
-            // carry on working if the design changes.
-            var display = document.createElement("h1");
-            display.innerHTML = feed_url;
-            document.body.innerHTML = '';
-            document.body.appendChild(display);
+            // We blank the page and insert there as I don't want to update this script
+            // whenever Apple feels like re-designing the podcast page markup.
+            // Yes, we're abusing br tags for spacing. Humblest apologies.
+            document.body.innerHTML = '<br/><h1>Podcast RSS URL: <a href="'+feed_url+'">'+feed_url+'</a></h1>';
         } else {
             alert('Failed to retrieve feed from the iTunes API');
         }
